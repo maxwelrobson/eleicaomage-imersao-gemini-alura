@@ -19,7 +19,7 @@ let dados = [
         titulo: "Beatriz Souza",
         descricao: "Beatriz Souza é uma judoca brasileira que conquistou a medalha de ouro nos Jogos Olímpicos de Paris 2024. Sua dedicação e técnica impecável a tornaram uma das principais atletas do judô mundial.",
         link: "https://pt.wikipedia.org/wiki/Beatriz_Souza"
-    },        
+    },         
 
 
 
