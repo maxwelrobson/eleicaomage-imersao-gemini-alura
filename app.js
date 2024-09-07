@@ -6,7 +6,7 @@ function pesquisar() {
   let campoPesquisa = document.getElementById("campo-pesquisa").value
 
   if (!campoPesquisa) {
-    section.innerHTML = "<p>Nada foi encontrado. Você precisa digitar o nome de um atleta ou esporte</p>"
+    section.innerHTML = "<p>Nada foi encontrado. Você precisa digitar o nome de um candidato ou candidata</p>"
     return
   }
   
@@ -15,23 +15,26 @@ function pesquisar() {
     // Inicializa uma string vazia para armazenar os resultados da pesquisa
   let resultados = "";
   let titulo = "";
-  let descricao = "";
+  let partido = "";
+  let numeroDeUrna = "";
   let tags = "";
   
     // Itera sobre cada dado na lista de dados (assumindo que 'dados' é um array de objetos)
   for (let dado of dados) {
 
     titulo = dado.titulo.toLowerCase()
-    descricao = dado.descricao.toLowerCase()
+    partido = dado.partido.toLowerCase()
+    numeroDeUrna = dado.numeroDeUrna.toLocaleLowerCase()
     tags = dado.tags.toLowerCase()
       //se titulo includes campoPesquisa 
-    if (titulo.includes(campoPesquisa) || descricao.includes(campoPesquisa) || tags.includes(campoPesquisa)) {
+    if (titulo.includes(campoPesquisa) || partido.includes(campoPesquisa) || numeroDeUrna.includes(campoPesquisa) || tags.includes(campoPesquisa)) {
         // Constrói o HTML para cada resultado, formatando os dados do objeto
       resultados += `
       <div class="item-resultado">
         <h2><a href="#">${dado.titulo}</a></h2>
-        <p class="descricao-meta">${dado.descricao}</p>
-        <a href=${dado.link} target="_blank">Mais informações</a>
+        <p class="descricao-meta">${dado.partido}</p>
+        <p class="descricao-meta">${dado.numeroDeUrna}</p>
+        <a href=${dado.tags} target="_blank">Mais informações</a>
       </div>
     `;
       }
