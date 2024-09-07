@@ -31,11 +31,11 @@ function pesquisar() {
         // Constrói o HTML para cada resultado, formatando os dados do objeto
       resultados += `
       <div class="item-resultado">
-        <h2><a href="#">${dado.titulo}</a></h2>
-        <p class="descricao-meta">${dado.partido}</p>
-        <p class="descricao-meta">${dado.numeroDeUrna}</p>
-        <a href=${dado.tags} target="_blank">Mais informações</a>
-      </div>
+        <h2>${dado.titulo}</h2>
+        <p class="descricao-meta">Partido: ${dado.partido}</p>
+        <p class="descricao-meta">Número de urna: ${dado.numeroDeUrna}</p>
+        <p class="descrisao-meta">Candidato(a) a: ${dado.tags}</p>
+      </div>'
     `;
       }
           //então, faça...
