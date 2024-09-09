@@ -4,7 +4,7 @@ let dados = [
     titulo: "Davi Souza",
     partido: "REDE",
     numeroDeUrna: "18",
-    descrisao: "Davi Souza (número de urna 18) é candidato a Prefeito em MAGÉ nas Eleições 2024 pelo partido REDE SUSTENTABILIDADE. Nasceu em Rio de Janeiro(RJ), em 02/07/1981. Davi Oliveira de Souza, tem 43 anos de idade, declarou ao TSE ser casado(a), tem o grau de instrução superior completo e sua profissão atual é jornalista e redator.",
+    descrisao: "Davi Souza é candidato a Prefeito em MAGÉ nas Eleições 2024 pelo partido REDE SUSTENTABILIDADE. Nasceu em Rio de Janeiro(RJ), em 02/07/1981. Davi Oliveira de Souza, tem 43 anos de idade, declarou ao TSE ser casado(a), tem o grau de instrução superior completo e sua profissão atual é jornalista e redator.",
     tags: "prefeito"
     },
 
@@ -12,7 +12,7 @@ let dados = [
     titulo: "Renato Cozzolino",
     partido: "PP",
     numeroDeUrna: "11",
-    descrisao: "",
+    descrisao: "Renato Cozzolino é candidato a Prefeito em MAGÉ nas Eleições 2024 pelo partido PROGRESSISTAS. Nasceu em Magé(RJ), em 21/02/1991. Renato Cozzolino Harb, tem 33 anos de idade, declarou ao TSE ser casado(a), tem o grau de instrução superior completo e sua profissão atual é prefeito.",
     tags: "prefeito"
     },
 
@@ -20,7 +20,7 @@ let dados = [
         titulo: "Ricardo da Karol",
         partido: "PL",
         numeroDeUrna: "22",
-        descrisao: "",
+        descrisao: "Ricardo da Karol é candidato a Prefeito em MAGÉ nas Eleições 2024 pelo partido PARTIDO LIBERAL. Nasceu em Rio de Janeiro(RJ), em 27/10/1959. Ricardo Correa de Barros, tem 64 anos de idade, declarou ao TSE ser casado(a), tem o grau de instrução ensino médio completo e sua profissão atual é empresário.",
         tags: "prefeito"
     },
     //termina a lista de prefeito
