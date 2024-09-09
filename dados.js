@@ -1,86 +1,101 @@
 let dados = [
-    
-{
-titulo: "Davi Souza",
-partido: "REDE",
-numeroDeUrna : "18",
-tags: "prefeito"
-},
+    //começa a lista de prefeito
+    {
+    titulo: "Davi Souza",
+    partido: "REDE",
+    numeroDeUrna: "18",
+    descrisao: "Davi Souza (número de urna 18) é candidato a Prefeito em MAGÉ nas Eleições 2024 pelo partido REDE SUSTENTABILIDADE. Nasceu em Rio de Janeiro(RJ), em 02/07/1981. Davi Oliveira de Souza, tem 43 anos de idade, declarou ao TSE ser casado(a), tem o grau de instrução superior completo e sua profissão atual é jornalista e redator.",
+    tags: "prefeito"
+    },
 
 {
-    titulo: "Renato Cozzplino",
+    titulo: "Renato Cozzolino",
     partido: "PP",
-    numeroDeUrna : "11",
+    numeroDeUrna: "11",
+    descrisao: "",
     tags: "prefeito"
     },
 
     {
         titulo: "Ricardo da Karol",
         partido: "PL",
-        numeroDeUrna : "22",
+        numeroDeUrna: "22",
+        descrisao: "",
         tags: "prefeito"
     },
+    //termina a lista de prefeito
+
+
 
     {
         titulo: "Adeildo da bike",
         partido: "REDE",
-        numeroDeUrna : "18999",
+        numeroDeUrna: "18999",
+        descrisao: "",
         tags: "Vereador(a)"
     },
 
     {
         titulo: "Ademar da Saúde",
         partido: "DC",
-        numeroDeUrna : "27027",
+        numeroDeUrna: "27027",
+        descrisao: "",
         tags: "Vereador(a)"
     },
 
     {
         titulo: "Ademar Oliveira",
         partido: "PDSB",
-        numeroDeUrna : "45287",
+        numeroDeUrna: "45287",
+        descrisao: "",
         tags: "Vereador(a)"
     },
 
     {
         titulo: "Adilson Capacia",
         partido: "PL",
-        numeroDeUrna : "22122",
+        numeroDeUrna: "22122",
+        descrisao: "",
         tags: "Vereador(a)"
     },
 
     {
         titulo: "Adriane Forte",
         partido: "PL",
-        numeroDeUrna : "22022",
+        numeroDeUrna: "22022",
+        descrisao: "",
         tags: "Vereador(a)"
     },
 
     {
         titulo: "Agatha Rodrigues",
         partido: "MDB",
-        numeroDeUrna : "15565",
+        numeroDeUrna: "15565",
+        descrisao: "",
         tags: "Vereador(a)"
     },
 
     {
         titulo: "Aguiana Charnase",
         partido: "AGIR",
-        numeroDeUrna : "36777",
+        numeroDeUrna: "36777",
+        descrisao: "",
         tags: "Vereador(a)"
     },
 
     {
         titulo: "Álvaro Alencar",
         partido: "PT",
-        numeroDeUrna : "13456",
+        numeroDeUrna: "13456",
+        descrisao: "",
         tags: "Vereador(a)"
     },
 
     {
         titulo: "",
         partido: "",
-        numeroDeUrna : "",
+        numeroDeUrna: "",
+        descrisao: "",
         tags: "Vereador(a)"
     },
 
