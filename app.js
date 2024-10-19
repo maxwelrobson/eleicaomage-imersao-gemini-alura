@@ -22,6 +22,7 @@ function pesquisar() {
   
     // Itera sobre cada dado na lista de dados (assumindo que 'dados' é um array de objetos)
   for (let dado of dados) {
+  if (dado && dado.titulo) {
 
     titulo = dado.titulo.toLowerCase()
     partido = dado.partido.toLowerCase()
@@ -29,10 +30,9 @@ function pesquisar() {
     tags = dado.tags.toLowerCase()
     descrisao = dado.descrisao.toLowerCase()
       //se titulo includes campoPesquisa 
-    if (titulo.includes(campoPesquisa) || partido.includes(campoPesquisa) || numeroDeUrna.includes(campoPesquisa) || tags.includes(campoPesquisa) || descrisao.includes(campoPesquisa))
-    {
+      if (titulo.includes(campoPesquisa) || partido.includes(campoPesquisa) || numeroDeUrna.includes(campoPesquisa) || tags.includes(campoPesquisa) || descrisao.includes(campoPesquisa)) {
         // Constrói o HTML para cada resultado, formatando os dados do objeto
-      resultados += `
+        resultados += `
       <div class="item-resultado">
         <h2>${dado.titulo}</h2>
         <p class="descricao-meta">Partido: ${dado.partido}</p>
@@ -41,6 +41,7 @@ function pesquisar() {
         <p class="descrisao-meta">Candidato(a) a: ${dado.tags}</p>
       </div>'
         `;
+      }
     }
           //então, faça...
   
